@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|d:\\\u0447\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0430\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\listboxnew\\listboxnew\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\listboxnew\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\listboxnew\\edit.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\edit.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\listboxnew\\edit.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\edit.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\listboxnew\\add.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\add.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\listboxnew\\basket.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\basket.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\listboxnew\\changing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\changing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\listboxnew\\add.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\add.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\listboxnew\\basket.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\basket.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|d:\\\u0447\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0430\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\listboxnew\\listboxnew\\listboxnew.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62CBA4EF-979D-42DD-ACBD-33E0C87F1B5B}|ListBoxNew\\ListBoxNew.csproj|solutionrelative:listboxnew\\listboxnew.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListBoxNew",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\ListBoxNew.csproj",
+              "RelativeDocumentMoniker": "ListBoxNew\\ListBoxNew.csproj",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\ListBoxNew.csproj",
+              "RelativeToolTip": "ListBoxNew\\ListBoxNew.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T08:19:44.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "ListBoxNew\\MainWindow.axaml",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\MainWindow.axaml",
+              "RelativeToolTip": "ListBoxNew\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T06:01:04.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "ListBoxNew\\MainWindow.axaml.cs",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\MainWindow.axaml.cs",
+              "RelativeToolTip": "ListBoxNew\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAUwIgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T06:01:04.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Basket.axaml",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Basket.axaml",
+              "RelativeDocumentMoniker": "ListBoxNew\\Basket.axaml",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Basket.axaml",
+              "RelativeToolTip": "ListBoxNew\\Basket.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T06:01:04.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Basket.axaml.cs",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Basket.axaml.cs",
+              "RelativeDocumentMoniker": "ListBoxNew\\Basket.axaml.cs",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Basket.axaml.cs",
+              "RelativeToolTip": "ListBoxNew\\Basket.axaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIA7wCkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T06:01:04.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add.axaml",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Add.axaml",
+              "RelativeDocumentMoniker": "ListBoxNew\\Add.axaml",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Add.axaml",
+              "RelativeToolTip": "ListBoxNew\\Add.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T06:01:04.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.axaml.cs",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Add.axaml.cs",
+              "RelativeDocumentMoniker": "ListBoxNew\\Add.axaml.cs",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Add.axaml.cs",
+              "RelativeToolTip": "ListBoxNew\\Add.axaml.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAADwvzAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T06:01:04.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.axaml",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Edit.axaml",
+              "RelativeDocumentMoniker": "ListBoxNew\\Edit.axaml",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Edit.axaml",
+              "RelativeToolTip": "ListBoxNew\\Edit.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T06:01:04.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.axaml.cs",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Edit.axaml.cs",
+              "RelativeDocumentMoniker": "ListBoxNew\\Edit.axaml.cs",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Edit.axaml.cs",
+              "RelativeToolTip": "ListBoxNew\\Edit.axaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwFoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T06:01:04.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Changing.cs",
+              "DocumentMoniker": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Changing.cs",
+              "RelativeDocumentMoniker": "ListBoxNew\\Changing.cs",
+              "ToolTip": "D:\\\u0427\u0435\u0440\u043D\u043E\u0432\u0438\u043A\u0438 \u0410\u0432\u0430\u043B\u043E\u043D\u0438\u044F\\ListBoxNew\\ListBoxNew\\Changing.cs",
+              "RelativeToolTip": "ListBoxNew\\Changing.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIA1wCYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T06:01:04.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

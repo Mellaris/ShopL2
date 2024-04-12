@@ -1,0 +1,72 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		x:CompileBindings="False"
+        x:Class="ListBoxNew.Basket"
+        Title="Basket">
+	
+	<DockPanel Margin="20" Background="White">
+		<TextBlock Margin="0 5" DockPanel.Dock="Top">Ваши продукты:</TextBlock>
+		<ListBox x:Name="product" SelectionMode="Multiple, Toggle"  >
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border BorderBrush="Blue" BorderThickness="1"
+							CornerRadius="4" Padding="4">
+						<StackPanel>
+							<Image Name="im" Source="{Binding ProductImage}" Width="100" Height="100" Grid.Column="3" />
+						<TextBlock Text="{Binding NameV}" Name="name1"/>
+						<TextBlock Text="{Binding PriceV}" Name="price1"/>
+							<Border BorderBrush="Blue" BorderThickness="1"
+									CornerRadius="4" Padding="4">
+							<TextBlock Name="kkol" Text="" >								
+								</TextBlock>
+						</Border>
+							<Button Background="Lavender" Click="Delete" Tag="{Binding id}"
+					 Width="150" Height="30" HorizontalAlignment="Center"
+		VerticalAlignment="Top">
+								<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+									Удалить
+								</TextBlock>
+							</Button>
+							<Button Background="Lavender" Click="Kol" Tag="{Binding idKol}"
+					 Width="150" Height="30" HorizontalAlignment="Center"
+		VerticalAlignment="Top">
+								<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+									+
+								</TextBlock>
+							</Button>
+							<Button Background="Lavender" Click="KolM" Tag="{Binding idKolM}"
+						 Width="150" Height="30" HorizontalAlignment="Center"
+			VerticalAlignment="Top">
+								<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+									-
+								</TextBlock>
+							</Button>
+							<TextBlock HorizontalAlignment="Center" Text="{Binding Sum}" Name="Koll">
+							</TextBlock>
+						</StackPanel>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>		
+		<Grid ColumnDefinitions = "100,200,200, 300"
+			RowDefinitions="100,100,200">
+			
+			<Border Grid.Column="2" Grid.Row="0" Background="Lavender" Width="200" Height="50">
+				<TextBlock HorizontalAlignment="Center" Name="SumF">
+				</TextBlock>
+			</Border>
+			
+			<Button Click="Back"
+				Background="Lavender" Grid.Column="2" Grid.Row="1" Width="100" Height="30" HorizontalAlignment="Center"
+					Margin="0,70,0,0">
+				<TextBlock HorizontalAlignment="Center">
+					Назад
+				</TextBlock>
+			</Button>
+			
+		</Grid>
+	</DockPanel>
+</Window>

@@ -1,0 +1,63 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="850"
+        x:Class="ListBoxNew.Add"
+		x:CompileBindings="False"
+		Title="Add">
+	<DockPanel Margin="20" Background="Lavender">
+
+		<TextBlock Margin="30 5" DockPanel.Dock="Top" FontSize="20" Foreground="Blue">Продукты: </TextBlock>
+
+		<ListBox x:Name="animals" SelectionMode="Multiple, Toggle" Background="Lavender">
+			<ListBox.ItemTemplate >
+				<DataTemplate>
+					<Border BorderBrush="Thistle" BorderThickness="1"
+							CornerRadius="4" Padding="4">
+						<StackPanel>
+							<Image Name="im" Source="{Binding ProductImage}" Width="100" Height="100" Grid.Column="3" />
+							<TextBlock Text="{Binding NameV}"/>
+							<TextBlock Text="{Binding PriceV}"/>
+						</StackPanel>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	
+		<Grid RenderOptions.BitmapInterpolationMode="HighQuality"
+			ColumnDefinitions="100,100,100, 100"
+			RowDefinitions="100,100,100, 100, 100">
+			<TextBox Width="100"
+					 Height="70"
+				Grid.Column="2"
+				Grid.Row="0"
+				Watermark="ProdName"
+				Name="prodName"
+					 Margin="0,0,0,0"
+				/>
+			<TextBox
+				Grid.Row="0"
+				Width="100"
+				Height="70"
+			Grid.Column="3" 
+			Watermark="PriceName"
+			Name="priceName"
+				Margin="0,0,0,0"
+			/>
+			<Image Grid.Column="3" Grid.Row="3" Source="{Binding ProductImage}" Name="im" Margin="0,30,0,0"  MaxWidth="300" />	
+			<Button Click="Dobavlen"
+				Grid.Column="2" Grid.Row="1" Width="150" Height="30" Margin="60,0,0,0" Background="Lavender">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					Добавить и назад
+				</TextBlock>
+			</Button>
+			<Button Click="Pict"
+				Grid.Column="3" Grid.Row="5" Width="150" Height="30" Margin="0,0,0,0" Background="Lavender">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					Добавить картинку
+				</TextBlock>
+			</Button>
+		</Grid>
+	</DockPanel>
+</Window>

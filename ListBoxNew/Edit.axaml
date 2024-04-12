@@ -1,0 +1,70 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ListBoxNew.Edit"
+		x:CompileBindings="False"
+        Title="Edit">
+
+	<DockPanel Margin="20" Background="Lavender">
+
+		<TextBlock Margin="30 5" DockPanel.Dock="Top" FontSize="20" Foreground="Blue">Продукты: </TextBlock>
+
+		<ListBox x:Name="animals" SelectionMode="Multiple, Toggle" Background="Lavender">
+			<ListBox.ItemTemplate >
+				<DataTemplate>
+					<Border BorderBrush="Thistle" BorderThickness="1"
+							CornerRadius="4" Padding="4">
+						<StackPanel>
+							<Image Name="im" Source="{Binding ProductImage}" Width="100" Height="100" Grid.Column="3" />
+							<TextBlock Text="{Binding NameV}"/>
+							<TextBlock Text="{Binding PriceV}"/>
+						</StackPanel>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	
+		<Grid
+			ColumnDefinitions="100,100,100, 100, 100"
+			RowDefinitions="100,100,100, 100">
+			<Button Click="ChOther" Width="190" Margin="60,0,0,0" Background="Lavender" Grid.Row="4" Grid.Column="1">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					Выбрать другой продукт
+				</TextBlock>
+			</Button>
+			<TextBox Width="100"
+				Height="50"
+				Grid.Column="3"
+				Grid.Row="0"
+				
+				Name="prodName"
+					 Margin="30,0,0,0"
+				/>
+			<TextBox
+				Grid.Row="0"
+				Width="100"
+				Height="50"
+			Grid.Column="4"
+			
+			Name="priceName"
+				Margin="40,0,0,0"
+			/>
+			<Image Grid.Column="3" Grid.Row="1" Source="{Binding ProductImage}" Name="im"  MaxWidth="300" />
+			<Button Click="EditB"
+				Grid.Column="3" Grid.Row="3" Width="250" Height="30" Margin="60,0,0,0" Background="Lavender">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					Редактировать и назад
+				</TextBlock>
+			</Button>
+			
+			<Button Click="Pictt"
+				Grid.Column="3" Grid.Row="2" Width="150" Height="30" Margin="100,70,0,0" Background="Lavender">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					Добавить картинку
+				</TextBlock>
+			</Button>
+		</Grid>
+</DockPanel>
+</Window>

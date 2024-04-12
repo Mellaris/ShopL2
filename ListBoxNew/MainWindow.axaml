@@ -1,0 +1,108 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		x:CompileBindings="False"
+	    x:Class="ListBoxNew.MainWindow"
+	    Title="ListBoxNew">
+	
+	<DockPanel Margin="20" Background="Lavender">
+		
+		<TextBlock Margin="30 5" DockPanel.Dock="Top" FontSize="20" Foreground="Blue">Продукты: </TextBlock>
+		
+		<ListBox x:Name="animals" SelectionMode="Multiple, Toggle" Background="Lavender">
+			<ListBox.ItemTemplate >
+				<DataTemplate>
+					<Border BorderBrush="Thistle" BorderThickness="1"
+							CornerRadius="4" Padding="4">
+						<StackPanel>
+							<Image Name="im" Source="{Binding ProductImage}" Width="100" Height="100" Grid.Column="3" />
+						<TextBlock Text="{Binding NameV}"/>
+						<TextBlock Text="{Binding PriceV}"/>
+							<Button Background="Lavender" Click="Del" Tag="{Binding del}"
+					 Width="150" Height="30" HorizontalAlignment="Center"
+		VerticalAlignment="Top">
+								<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+									Удалить
+								</TextBlock>
+							</Button>
+							<Button Grid.Column="3" Grid.Row="1" Background="Lavender" Click="Edit" Tag="{Binding edit}"
+					 Width="150" Height="30" HorizontalAlignment="Center"
+			VerticalAlignment="Top">
+								<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+									Редактировать
+								</TextBlock>
+							</Button>
+						</StackPanel>						
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		
+		<Grid
+			ColumnDefinitions="160,160,160,160, 160"
+			RowDefinitions="70,70,70,70,70">
+			
+			<Border Grid.Column="2"
+				Grid.Row="0" BorderBrush="Thistle" Background="Thistle" Width="152" Height="33">
+				<Button Click="Button_Click"
+				Background="Lavender"
+				Grid.Column="2"
+				Grid.Row="0"
+				HorizontalAlignment="Center"
+					VerticalAlignment="Top"
+				Width="150"
+				Height="30"
+					>
+					<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+						Добавить
+					</TextBlock>
+				</Button>
+			</Border>
+			<Border Grid.Column="2" Grid.Row="1" BorderBrush="Thistle" Background="Thistle" Width="152" Height="33">
+				<Button Grid.Column="2" Grid.Row="1" Background="Lavender" Click="Button"
+					 Width="150" Height="30" HorizontalAlignment="Center"
+				VerticalAlignment="Top">
+					<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+						В корзину
+					</TextBlock>
+				</Button>
+				
+			</Border>
+
+			<Button Grid.Column="2" Grid.Row="2" Background="Lavender" Click="Run"
+					 Width="150" Height="30" HorizontalAlignment="Center"
+				VerticalAlignment="Top">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					Вперед
+				</TextBlock>
+			</Button>
+			<Button Grid.Column="3" Grid.Row="2" Background="Lavender" Click="Back"
+					 Width="150" Height="30" HorizontalAlignment="Center"
+				VerticalAlignment="Top">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					Назад
+				</TextBlock>
+			</Button>
+			<TextBox KeyUp="SearchList" Grid.Column="2" Grid.Row="3" Text="{Binding Search}" Name="sear"  >
+			</TextBox>
+			<Button Click="SortPlus" Width="150" Background="Lavender" Grid.Column="2" Grid.Row="4"  Margin="50,0,0,0">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					По возрастанию
+				</TextBlock>
+			</Button>
+			<Button Click="SortMinus" Width="150" Background="Lavender" Grid.Column="3" Grid.Row="4"  Margin="10,0,0,0">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					По убыванию
+				</TextBlock>
+			</Button>
+			<Button Click="SortAlf" Width="150" Background="Lavender" Grid.Column="3" Grid.Row="3"  Margin="10,0,0,0">
+				<TextBlock HorizontalAlignment="Center" Foreground="Blue">
+					По алфавиту
+				</TextBlock>
+			</Button>
+		</Grid>
+		
+	</DockPanel>
+</Window>
